@@ -1,12 +1,12 @@
 body {
     background-color: #1a1a1a;
     color: #e0e0e0;
-    font-family: "Courier New", Courier, monospace; /* Fonte clássica de máquina de escrever */
+    font-family: "Courier New", Courier, monospace;
     margin: 0;
     padding: 20px;
 }
 
-#caixa-principal {
+#principal {
     max-width: 900px;
     margin: 0 auto; 
     background-color: #2a2a2a;
@@ -39,12 +39,12 @@ body {
     padding: 15px;
 }
 
-#menu-lateral ul {
+#menu-lateral a {
     list-style-type: none;
     padding: 0;
 }
 
-#menu-lateral li {
+#menu-lateral b {
     margin-bottom: 10px;
 }
 
