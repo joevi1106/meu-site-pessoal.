@@ -51,13 +51,14 @@ body {
 a {
     color: #ff9933; 
     text-decoration: none;
+    text-align: center;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #ffcc66;
 }
 
-#conteudo {
+.conteudo {
     flex: 1;
     background-color: #111;
     border: 2px solid #555;
@@ -67,4 +68,30 @@ a:hover {
 h2, h3 {
     color: #4da6ff;
     margin-top: 0;
+}
+
+.seçãonova {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    text-decoration: none; 
+    list-style: none;
+    margin: 5px 10px 5px 15px;
+}   
+
+#contatoslista {
+    display: flex;          
+    justify-content: center;                
+    list-style: none;      
+    padding: 0;            
+    margin: 20px 0 0 0;    
+}
+
+#contatoslista a {
+    color: orange;          
+    text-decoration: none;   
 }
